@@ -31879,7 +31879,7 @@
         //ну это наш клиент
 
         var ready = Plugins.get().find(function (a) {
-          return (a.url + '').indexOf('plugin/tmdb-proxy') >= 0;
+          return (a.url + '').indexOf('./plugin/tmdb-proxy.js') >= 0;
         });
         if (!ready) {
           console.log('VPN', 'install TMDB Proxy (LOCAL)');
@@ -31902,7 +31902,7 @@
       }
     };
     var installed = Plugins.get().find(function (a) {
-      return (a.url + '').indexOf('plugin/tmdb-proxy') >= 0;
+      return (a.url + '').indexOf('./plugin/tmdb-proxy.js') >= 0;
     });
     if (!installed) {
       console.log('VPN', 'start install TMDB Proxy');
