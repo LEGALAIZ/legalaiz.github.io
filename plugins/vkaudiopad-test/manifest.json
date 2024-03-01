@@ -1,0 +1,61 @@
+{
+  "name": "vk audiopad \u2013 VK \u041c\u0443\u0437\u044b\u043a\u0430 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e \u0431\u0435\u0437 \u0440\u0435\u043a\u043b\u0430\u043c\u044b",
+  "description": "\u0421 \u043f\u043b\u0435\u0435\u0440\u043e\u043c \u0434\u043b\u044f \u0412\u041a \u041c\u0443\u0437\u044b\u043a\u0438, \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0441\u043b\u0443\u0448\u0430\u0442\u044c \u043c\u0443\u0437\u044b\u043a\u0443 \u0438\u0437 \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e \u0438 \u0431\u0435\u0437 \u0440\u0435\u043a\u043b\u0430\u043c\u044b",
+  "author": "Denis Matveev <unsumulum@gmail.com>",
+  "version": "3.2.4",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "commands": {
+    "010-play-pause": {
+      "description": "\u0412\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u0435/\u041f\u0430\u0443\u0437\u0430",
+      "suggested_key": {
+        "default": "Ctrl+Shift+5"
+      },
+      "global": true
+    },
+    "020-previous": {
+      "description": "\u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439 \u0442\u0440\u0435\u043a",
+      "suggested_key": {
+        "default": "Ctrl+Shift+6"
+      },
+      "global": true
+    },
+    "030-next": {
+      "description": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0442\u0440\u0435\u043a",
+      "suggested_key": {
+        "default": "Ctrl+Shift+7"
+      },
+      "global": true
+    },
+    "050-shuffle": {
+      "description": "\u0421\u043b\u0443\u0448\u0430\u0442\u044c \u0432 \u043f\u0435\u0440\u0435\u043c\u0435\u0448\u043a\u0443"
+    },
+    "060-loop": {
+      "description": "\u041f\u043e\u0432\u0442\u043e\u0440"
+    }
+  },
+  "permissions": [
+    "*://*.vk.com/*",
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "content_security_policy": "script-src 'self' blob: 'sha256-zBAu63Ml0ZcBZR6RNMSWf9u1NRTTGFWaawf+oYHzLHs=' https://top-fwz1.mail.ru/js/code.js https://top-fwz1.mail.ru/js/dyn-goal-config.js; object-src 'self'",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{a489e182-af99-4bd3-bbef-d5325702bbcd}"
+    }
+  }
+}

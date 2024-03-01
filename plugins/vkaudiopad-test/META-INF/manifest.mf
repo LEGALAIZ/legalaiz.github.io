@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+
+Name: background.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ERRe4AZBPnnI0vAP3nwwq13Ow88=
+SHA256-Digest: ndHgY0HmWrpahV/UF60s8pMs5Hl9nCCYNBhSqwyShKY=
+
+Name: favicon.ico
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: LidkGT7F8Mug1uGPwCWAICeZlSw=
+SHA256-Digest: aZ2LJRyS7DwaOm5Wq1lbkjlaqAFWemvpkjiQFqP+JiU=
+
+Name: index.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: SmBhlRY6QP1+rCej91JMi7Che1E=
+SHA256-Digest: 8B4guiVlDZ9cgKepQBmcZpuRTN90KxUxWAm5owu/lyc=
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: +3whg9KlvXcejy1isq9HLG9qSPI=
+SHA256-Digest: gHmIC7jQyhHF2fNaxO3WtViZROhEReLxcmm2oMSgtE0=
+
+Name: assets/index-73076adb.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 0j/u/4u8sgAoQQtWleW2mwgiFPc=
+SHA256-Digest: cwdq2+1enk1lWbuJOWXp6mmh+qRZRDW24DuTk7v+GOk=
+
+Name: assets/index-224f6c17.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 8YZi2JhRtKLjbGzu3rTGBoTEtIs=
+SHA256-Digest: ZajGQCZ3D9Vopvtr5hjhsFXyh4zfi2pptwFYic3WHxE=
+
+Name: background_assets/app-0e4270cb.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ZK0vxKp+TS00GuFxCgXLhbM1PNo=
+SHA256-Digest: FruIJb1ogj9NPAsgV//mqh5c3Wvw/KRbqSPuppON2vU=
+
+Name: icons/icon16.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: un8BIl7Pl+qi8tfKDhN/YUGPD+4=
+SHA256-Digest: 4h+w2dxPNVkWvdO8ooxr4AvNSWImh2r33PaiLyfiIIM=
+
+Name: icons/icon32.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: MJX5uM34lEOQgscdKbsn1hI5KE8=
+SHA256-Digest: 0mdT0FdwLw/v5kmKgO3l/aCMfmtqus7zUNWSIIvm6x0=
+
+Name: icons/icon48.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: +LVtVdpPHz1MgeJcllKH/mXUTaY=
+SHA256-Digest: WgyoNp/k90LikTsuydISaB/ZEVHGZBVY9S/MJvAl1uY=
+
+Name: icons/icon128.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: EtpETJTzxrYELXcJDFnJTQb5tQE=
+SHA256-Digest: pONjNU9BuNWx+O6bOMLDxvJKTdnAE5rjf8V4T9sg4+I=
+
+Name: META-INF/cose.manifest
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /FhU/nowBJYIcRhDHNLxk1sZ8YI=
+SHA256-Digest: 3XT/NlT7qc4sDa/3dJHOdBUpQbKBznonMXoF/dN6ZKU=
+
+Name: META-INF/cose.sig
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: +TWNZ9uZWOHXzSiKFPiWtO3IIJQ=
+SHA256-Digest: JCR2g7vZEtbzBJqY6LGB4Ea7oS8XjQjpz/pg6QpfHn8=
+

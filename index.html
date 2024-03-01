@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampa-LIGA-TEST</title>
+
+    <link rel="stylesheet" href="./vender/scrollbar/jquery.scrollbar.css">
+    <link rel="stylesheet" href="./vender/keypad/style.css">
+
+    <link rel="stylesheet" href="css/app.css?v=2.84">
+	
+	<!-- Put this script tag to the <head> of your page -->
+<script
+  type="text/javascript"
+  src="https://vk.com/js/api/openapi.js?168"
+  charset="windows-1251"
+></script>
+<script type="text/javascript">
+  VK.init({ apiId: 51856185 });
+</script>
+	<!-- Put this script tag to the <head> of your page -->
+
+</head>
+<body>
+    <div class="welcome"></div>
+
+    <div id="app">
+	
+			<!-- Put this script tag to the place, where the Login block will be -->
+<div id="vk_auth"></div>
+<script type="text/javascript">
+  VK.Widgets.Auth("vk_auth", {authUrl: "/ru/widgets/auth"});
+</script>
+	<!-- Put this script tag to the place, where the Login block will be -->
+<script type="text/javascript">
+  VK.init({
+    apiId: 51856185
+  });
+</script>
+
+    </div>
+	
+
+
+    <script src="./vender/jquery/jquery.js"></script>
+    <script src="./vender/notify/notify.js"></script>
+    <script src="./vender/scrollbar/jquery.scrollbar.js"></script>
+    <script src="./vender/navigator/navigator.js"></script>
+    <script src="./vender/keypad/keypad.js"></script>
+    <script src="./vender/youtube/iframe_api.js"></script>
+    <script src="./vender/f/f.js"></script>	
+
+    <script src="app.js"></script>
+	
+
+</body>
+</html>
