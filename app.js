@@ -31884,8 +31884,8 @@
         if (!ready) {
           console.log('VPN', 'install TMDB Proxy (LOCAL)');
           Plugins.add({
-            //url: 'http://' + object$2.cub_domain + '/plugin/tmdb-proxy',
-            url: './plugins/tmdb-proxy.js',
+            url: 'http://' + object$2.cub_domain + '/plugin/tmdb-proxy',
+            //plugin/tmdb-proxyurl: './plugins/tmdb-proxy.js',
             status: 1,
             name: 'TMDB Proxy (LOCAL)',
             author: '@lampa-liga'
@@ -31902,7 +31902,7 @@
       }
     };
     var installed = Plugins.get().find(function (a) {
-      return (a.url + '').indexOf('./plugin/tmdb-proxy.js') >= 0;
+      return (a.url + '').indexOf('plugin/tmdb-proxy') >= 0;
     });
     if (!installed) {
       console.log('VPN', 'start install TMDB Proxy');
