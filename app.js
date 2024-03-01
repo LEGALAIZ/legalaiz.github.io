@@ -31885,7 +31885,7 @@
           console.log('VPN', 'install TMDB Proxy (LOCAL)');
           Plugins.add({
             //url: 'http://' + object$2.cub_domain + '/plugin/tmdb-proxy',
-            url: 'https://github.com/LEGALAIZ/lampa-liga/blob/9ae55108284d27328245837597ba4798465599f4/plugins/tmdb_proxy/tmdb_proxy.js',
+            url: './plugins/tmdb-proxy.js',
             status: 1,
             name: 'TMDB Proxy (LOCAL)',
             author: '@lampa-liga'
@@ -31893,7 +31893,7 @@
           console.log('PLUGIN', 'install skaztv_store (LOCAL)');
           Plugins.add({
             //url: 'http://' + object$2.cub_domain + '/plugin/tmdb-proxy',
-            url: 'link[href="plugins/skaztv_store.js"]',
+            url: './plugins/skaztv_store.js',
             status: 1,
             name: 'skaztv_store.js (LOCAL)',
             author: '@lampa-liga'
